@@ -10,7 +10,7 @@
     <a href="<%= request.getContextPath() %>/">메인</a>
     <a href="<%= request.getContextPath() %>/login">로그인</a>
 </nav>
-<form>
+<form method="post">
     <input name="username" placeholder="유저이름 입력"><br>
     <input name="password" type="password" placeholder="비밀번호 입력"><br>
     <button>가입</button>
